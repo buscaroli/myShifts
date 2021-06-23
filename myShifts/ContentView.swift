@@ -28,7 +28,7 @@ struct ContentView: View {
                                 
                                 Spacer()
                                 
-                                Text(shift.total)
+                                Text("£\(shift.total)")
                             }
                         }
                         

@@ -49,7 +49,7 @@ struct ShiftDetail: View {
             
             Section {
                 HStack {
-                    Text("Total")
+                    Text("Total: £")
                     Text(shift.total)
                 }
             }
