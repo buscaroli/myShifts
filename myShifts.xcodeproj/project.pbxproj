@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2366CEFC26832CCF00142789 /* AddShift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2366CEFB26832CCF00142789 /* AddShift.swift */; };
 		23D4CAD826828C5300836313 /* myShiftsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4CAD726828C5300836313 /* myShiftsApp.swift */; };
 		23D4CADA26828C5300836313 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4CAD926828C5300836313 /* ContentView.swift */; };
 		23D4CADC26828C5500836313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D4CADB26828C5500836313 /* Assets.xcassets */; };
 		23D4CADF26828C5500836313 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D4CADE26828C5500836313 /* Preview Assets.xcassets */; };
+		23D4CAE726829C8900836313 /* Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4CAE626829C8900836313 /* Shift.swift */; };
+		23D4CAEB26829D1000836313 /* Rota.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4CAEA26829D1000836313 /* Rota.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2366CEFB26832CCF00142789 /* AddShift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShift.swift; sourceTree = "<group>"; };
 		23D4CAD426828C5300836313 /* myShifts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myShifts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D4CAD726828C5300836313 /* myShiftsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myShiftsApp.swift; sourceTree = "<group>"; };
 		23D4CAD926828C5300836313 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23D4CADB26828C5500836313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23D4CADE26828C5500836313 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23D4CAE026828C5500836313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D4CAE626829C8900836313 /* Shift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shift.swift; sourceTree = "<group>"; };
+		23D4CAEA26829D1000836313 /* Rota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rota.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +58,11 @@
 		23D4CAD626828C5300836313 /* myShifts */ = {
 			isa = PBXGroup;
 			children = (
+				2366CEFB26832CCF00142789 /* AddShift.swift */,
 				23D4CAD726828C5300836313 /* myShiftsApp.swift */,
 				23D4CAD926828C5300836313 /* ContentView.swift */,
+				23D4CAEA26829D1000836313 /* Rota.swift */,
+				23D4CAE626829C8900836313 /* Shift.swift */,
 				23D4CADB26828C5500836313 /* Assets.xcassets */,
 				23D4CAE026828C5500836313 /* Info.plist */,
 				23D4CADD26828C5500836313 /* Preview Content */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				23D4CADA26828C5300836313 /* ContentView.swift in Sources */,
+				23D4CAE726829C8900836313 /* Shift.swift in Sources */,
 				23D4CAD826828C5300836313 /* myShiftsApp.swift in Sources */,
+				2366CEFC26832CCF00142789 /* AddShift.swift in Sources */,
+				23D4CAEB26829D1000836313 /* Rota.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
