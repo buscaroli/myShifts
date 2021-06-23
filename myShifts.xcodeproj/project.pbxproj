@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2366CEFC26832CCF00142789 /* AddShift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2366CEFB26832CCF00142789 /* AddShift.swift */; };
+		237E4BD52683919000369E55 /* ShiftDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237E4BD42683919000369E55 /* ShiftDetail.swift */; };
 		23D4CAD826828C5300836313 /* myShiftsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4CAD726828C5300836313 /* myShiftsApp.swift */; };
 		23D4CADA26828C5300836313 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4CAD926828C5300836313 /* ContentView.swift */; };
 		23D4CADC26828C5500836313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D4CADB26828C5500836313 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		2366CEFB26832CCF00142789 /* AddShift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShift.swift; sourceTree = "<group>"; };
+		237E4BD42683919000369E55 /* ShiftDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftDetail.swift; sourceTree = "<group>"; };
 		23D4CAD426828C5300836313 /* myShifts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myShifts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D4CAD726828C5300836313 /* myShiftsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myShiftsApp.swift; sourceTree = "<group>"; };
 		23D4CAD926828C5300836313 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				2366CEFB26832CCF00142789 /* AddShift.swift */,
 				23D4CAD726828C5300836313 /* myShiftsApp.swift */,
 				23D4CAD926828C5300836313 /* ContentView.swift */,
+				237E4BD42683919000369E55 /* ShiftDetail.swift */,
 				23D4CAEA26829D1000836313 /* Rota.swift */,
 				23D4CAE626829C8900836313 /* Shift.swift */,
 				23D4CADB26828C5500836313 /* Assets.xcassets */,
@@ -150,6 +153,7 @@
 				23D4CADA26828C5300836313 /* ContentView.swift in Sources */,
 				23D4CAE726829C8900836313 /* Shift.swift in Sources */,
 				23D4CAD826828C5300836313 /* myShiftsApp.swift in Sources */,
+				237E4BD52683919000369E55 /* ShiftDetail.swift in Sources */,
 				2366CEFC26832CCF00142789 /* AddShift.swift in Sources */,
 				23D4CAEB26829D1000836313 /* Rota.swift in Sources */,
 			);

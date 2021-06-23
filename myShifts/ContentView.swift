@@ -14,20 +14,26 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                ForEach(expenses.shifts) { shift in
-                    HStack {
-                        VStack(alignment: .leading) {
-                            Text(shift.contractor)
-                            Text("14/06/2021")
-                                .font(.caption)
-                                .foregroundColor(Color.gray)
-                            
+                List {
+                    ForEach(expenses.shifts) { shift in
+                        NavigationLink(destination: ShiftDetail(shift: shift)) {
+                            HStack {
+                                VStack(alignment: .leading) {
+                                    Text(shift.contractor)
+                                    Text(shift.selectedDate)
+                                        .font(.caption)
+                                        .foregroundColor(Color.gray)
+                                    
+                                }
+                                
+                                Spacer()
+                                
+                                Text(shift.total)
+                            }
                         }
                         
-                        Spacer()
-                        
-                        Text(shift.total)
                     }
+                    .onDelete(perform: removeItems)
                 }
                 .navigationBarTitle(Text("myShifts"))
                 .navigationBarItems(trailing: Button(action: {
@@ -56,6 +62,10 @@ struct ContentView: View {
             }
         }
     }
+    
+    func removeItems(at offsets: IndexSet) {
+            expenses.shifts.remove(atOffsets: offsets)
+        }
 }
 
 struct ContentView_Previews: PreviewProvider {

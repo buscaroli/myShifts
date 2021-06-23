@@ -37,7 +37,8 @@ struct AddShift: View {
                 }
                 
                 Section(header: Text("Shift date")) {
-                    // DatePicker
+                    DatePicker("Click to select a Date", selection: $date, displayedComponents: .date)
+                          .labelsHidden()
                 }
                 
                 
@@ -46,7 +47,7 @@ struct AddShift: View {
             .navigationBarItems(trailing: Button("Save") {
                 guard let convertedHourlyRate = Double(self.hourlyRate) else { return }
                 guard let convertedHours = Double(self.hours) else { return }
-                guard let convertedExtra = Double(self.extra) else { return }
+                let convertedExtra = Double(self.extra) ?? 0.0
                 
                 let item = Shift(contractor: self.contractor, hourlyRate: convertedHourlyRate, hours: convertedHours, description: self.description, extra: convertedExtra, date: self.date)
                 
